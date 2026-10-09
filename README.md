@@ -9,11 +9,11 @@ Fourth-year B.Tech Computer Science student specializing in Artificial Intellige
 - **[Claude GenAI Lab Assistant](https://github.com/Achintya-Narula/claude-genai-lab-assistant)** — Next.js and Anthropic API educational assistant with Explain, Hint, Debug, and Prompt Coach modes grounded in local lab context.
 - **[IssueSense](https://github.com/Achintya-Narula/issuesense)** — Reproducible Python issue classifier using TF-IDF and Logistic Regression with confidence-based human review routing and 15 automated tests.
 - **[Placement Tracker](https://github.com/Achintya-Narula/placement-tracker)** — Private job application tracker built with TypeScript and Node.js featuring secure salted scrypt/JWT auth, timeline validation, and 19 automated tests.
-- **[CampusQueue](https://github.com/Achintya-Narula/campus-queue)** — Concurrency-safe Java 17 REST API for workshop registration with FIFO waitlisting and automatic seat promotion.
+- **[CampusQueue](https://github.com/Achintya-Narula/campus-queue)** — Spring Boot and PostgreSQL workshop-registration API with JWT/BCrypt security, role-scoped workflows, transaction-safe capacity enforcement through pessimistic locking, FIFO waitlisting, automatic promotion, and 28 Testcontainers integration tests.
 
 ## Technical toolkit
 
-`Python` `SQL (T-SQL/PostgreSQL)` `scikit-learn` `XGBoost` `SHAP` `Java 17` `TypeScript` `FastAPI` `Docker` `Power BI` `REST APIs` `Git` `GitHub Actions`
+`Python` `Java 17` `Spring Boot` `Spring Security` `PostgreSQL` `SQL/T-SQL` `TypeScript` `scikit-learn` `XGBoost` `SHAP` `FastAPI` `Docker` `Testcontainers` `REST APIs` `Git` `GitHub Actions`
 
 ## Contact
 
