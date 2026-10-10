@@ -1,22 +1,24 @@
 # Hi, I'm Achintya Narula
 
-Fourth-year B.Tech Computer Science student specializing in Artificial Intelligence and Machine Learning at Shaheed Bhagat Singh State University. I build reproducible machine learning pipelines, data systems, and practical backend software. Looking for AI/ML, Data, and Software Engineering internships starting January 2027.
+I'm a fourth-year B.Tech Computer Science and Engineering student at Shaheed Bhagat Singh State University, graduating in May 2027. I build backend systems, Python data and machine-learning pipelines, and small full-stack tools. I also serve as Technical Head for GDG On Campus at SBSSU. I care about whether a technical claim can be reproduced and inspected.
 
-## Featured projects
+## How I work
 
-- **[Customer Churn Prediction & Explainability](https://github.com/Achintya-Narula/customer-churn-ml)** — End-to-end ML pipeline on 7,043 customer records comparing Logistic Regression, Random Forest, and XGBoost with leakage-safe preprocessing, SHAP explainability, out-of-fold threshold tuning, and containerized FastAPI serving.
-- **[Sales Analytics & Data Warehouse Pipeline](https://github.com/Achintya-Narula/sales-data-warehouse)** — SQL Server dimensional data warehouse featuring `FactSales`, surrogate keys, SCD Type 1 MERGE ETL, automated Python data quality assertions, and analytical queries with Power BI metrics.
-- **[Claude GenAI Lab Assistant](https://github.com/Achintya-Narula/claude-genai-lab-assistant)** — Next.js and Anthropic API educational assistant with Explain, Hint, Debug, and Prompt Coach modes grounded in local lab context.
-- **[IssueSense](https://github.com/Achintya-Narula/issuesense)** — Reproducible Python issue classifier using TF-IDF and Logistic Regression with confidence-based human review routing and 15 automated tests.
-- **[Placement Tracker](https://github.com/Achintya-Narula/placement-tracker)** — Private job application tracker built with TypeScript and Node.js featuring secure salted scrypt/JWT auth, timeline validation, and 19 automated tests.
-- **[CampusQueue](https://github.com/Achintya-Narula/campus-queue)** — Spring Boot and PostgreSQL workshop-registration API with JWT/BCrypt security, role-scoped workflows, transaction-safe capacity enforcement through pessimistic locking, FIFO waitlisting, automatic promotion, and 28 Testcontainers integration tests.
+When RDR2 kept crashing on a friend's laptop, I checked Task Manager during play before changing anything. Resource use pointed to the likely cause, so I lowered the graphics settings and reinstalled the GPU driver. I use the same pattern with software: reproduce the problem, inspect evidence, try the simplest reasonable fix, and keep enough context to backtrack.
 
-## Technical toolkit
+## Selected projects
 
-`Python` `Java 17` `Spring Boot` `Spring Security` `PostgreSQL` `SQL/T-SQL` `TypeScript` `scikit-learn` `XGBoost` `SHAP` `FastAPI` `Docker` `Testcontainers` `REST APIs` `Git` `GitHub Actions`
+- **[CampusQueue](https://github.com/Achintya-Narula/campus-queue):** Spring Boot and PostgreSQL workshop registration API that uses database row locking to keep a capacity-three workshop at exactly 3 confirmed and 17 waitlisted across 20 concurrent registrations.
+- **[Placement Tracker](https://github.com/Achintya-Narula/placement-tracker):** TypeScript and Node.js application tracker with owner-scoped CRUD, editable deadlines and stage dates, scrypt/JWT authentication, and 22 automated tests.
+- **[Customer Churn Prediction](https://github.com/Achintya-Narula/customer-churn-ml):** Python pipeline that selected XGBoost through five-fold training cross-validation and reached 0.8486 ROC-AUC on an untouched holdout from IBM's 7,043-row sample dataset.
+- **[Sales Data Warehouse](https://github.com/Achintya-Narula/sales-data-warehouse):** SQL Server dimensional warehouse with deterministic Python data, a 30-customer SCD Type 1 delta, idempotent fact loading, analytical SQL, and container-backed verification.
+- **[IssueSense](https://github.com/Achintya-Narula/issuesense):** Python issue classifier using TF-IDF and logistic regression, with low-confidence predictions routed for human review and 15 automated tests.
+- **[Claude GenAI Lab Assistant](https://github.com/Achintya-Narula/claude-genai-lab-assistant):** Next.js learning assistant with four guided modes, local-context grounding, server-only Anthropic API key handling, and tested request validation.
 
-## Contact
+## Contact and availability
 
-- [Portfolio Website](https://achintya-portfolio-roan.vercel.app)
+I'm looking for software engineering, backend, Python, data, and applied ML internships starting January 2027. I am open to relocation, hybrid work, and remote roles across India.
+
+- [Portfolio](https://achintya-portfolio-roan.vercel.app)
 - [LinkedIn](https://linkedin.com/in/achintyanarula)
 - [Email](mailto:achintyanarula@gmail.com)
